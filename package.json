@@ -1,0 +1,51 @@
+{
+  "name": "discord-music-playback-bot",
+  "version": "1.0.0",
+  "description": "A feature-rich bot for seamless music playback on Discord servers, enhancing social and entertainment experiences for users.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "discord",
+    "music",
+    "bot",
+    "javascript"
+  ],
+  "author": "Drix10",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cheerio": "^1.0.0-rc.3",
+    "class-validator": "^0.13.2",
+    "discord.js": "^14.0.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "ffmpeg-static": "^4.4.0",
+    "mongoose": "^6.2.2",
+    "node-fetch": "^2.6.7",
+    "@discordjs/builders": "^1.1.1",
+    "@discordjs/opus": "^0.5.3",
+    "@discordjs/rest": "^1.0.0",
+    "sequelize": "^6.18.0",
+    "winston": "^3.4.0",
+    "ytdl-core": "^4.9.0"
+  },
+  "devDependencies": {
+    "jest": "^27.0.0",
+    "nodemon": "^2.0.15"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spectra-ai-codegen/discord-music-playback-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/spectra-ai-codegen/discord-music-playback-bot/issues"
+  },
+  "homepage": "https://github.com/spectra-ai-codegen/discord-music-playback-bot#readme"
+}
